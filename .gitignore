@@ -1,0 +1,11 @@
+# Exclude raw bulk CSV datasets (~260 MB) and >100 MB Power BI binary from Git history
+data/
+*.csv
+*.pbix
+
+# Python & Jupyter artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
